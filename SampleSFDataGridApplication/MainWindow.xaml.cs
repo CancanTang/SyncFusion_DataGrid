@@ -12,6 +12,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        SfSkinManager.SetTheme(this, new Theme("Windows11Light"));
     }
 
     private void ThemeToggleButton_Click(object sender, RoutedEventArgs e)
